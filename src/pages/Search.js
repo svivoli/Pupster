@@ -11,7 +11,7 @@ class Search extends Component {
         breeds: [],
         results: [],
         error: ""
-    },
+    };
 
     componentDidMount() {
         API.getBaseBreedsList()
