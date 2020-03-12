@@ -1,10 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import NavTabs from "./components/NavTabs";
-import './App.css';
 import About from "./pages/About";
 import Discover from "./pages/Discover";
 import Search from "./pages/Search";
+import Navbar from "./components/Navbar";
+import Wrapper from "./components/Wrapper";
+import Footer from "./components/Footer";
 
 function App() {
   return (
