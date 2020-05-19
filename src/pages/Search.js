@@ -4,6 +4,7 @@ import Container from "../components/Container";
 import SearchForm from "../components/SearchForm";
 import SearchResults from "../components/SearchResults";
 import Alert from "../components/Alert";
+import "./style.css";
 
 class Search extends Component {
     state = {
@@ -37,7 +38,7 @@ class Search extends Component {
 
     render() {
         return (
-            <div>
+            <div className="wrap">
                 <Container style={{ minHeight: "80%" }}>
                     <h1 className="text-center">Search By Breed!</h1>
                     <Alert
