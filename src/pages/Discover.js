@@ -43,12 +43,12 @@ class Discover extends Component {
     render() {
         return (
             <div>
-                <h1 className="text-center">Make New Friends</h1>
+                <h1 className="text-center" style={{marginTop: "30px"}}>Make New Friends</h1>
                 <h3 className="text-center">
                     Thumbs up on any pups you'd like to meet!
                 </h3>
                 <Card image={this.state.image} handleBtnClick={this.handleBtnClick} />
-                <h1 className="text-center">
+                <h1 className="text-center" style={{paddingTop: "20px"}}>
                     Made friends with {this.state.matchCount} pups so far!
                 </h1>
                 <Alert style={{opacity: this.state.match ? 0 : 0 }} type ="success">

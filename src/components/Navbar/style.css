@@ -1,3 +1,7 @@
+.navbar-brand {
+  font-family: 'Cabin Sketch', cursive;
+}
+
 nav.navbar.navbar-default {
     margin-bottom: 0;
   }

@@ -40,7 +40,7 @@ class Search extends Component {
         return (
             <div className="wrap">
                 <Container style={{ minHeight: "80%" }}>
-                    <h1 className="text-center">Search By Breed!</h1>
+                    <h1 className="text-center" style={{marginTop: "30px"}}>Search By Breed!</h1>
                     <Alert
                     type="danger"
                     style={{ opacity: this.state.error ? 1 : 0, marginBottom: 10 }}
