@@ -3,7 +3,7 @@ import "./style.css";
 
 function SearchResults(props) {
     return (
-        <ul className="list-group search-results">
+        <ul className="list-group search-results" style={{textAlign: "center"}}>
             {props.results.map(result => (
                 <li key={result} className="list-group-item">
                     <img alt="Dog" src={result} className="img-fluid" />
