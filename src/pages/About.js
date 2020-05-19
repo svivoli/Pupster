@@ -3,12 +3,13 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import "./style.css";
 
 function About() {
   return (
     <div>
       <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>Pupster</h1>
+        <h1 className="hero-title">Pupster</h1>
         <h2>They're the Good Boys and Girls</h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>

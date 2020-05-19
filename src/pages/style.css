@@ -1,3 +1,7 @@
+.hero-title {
+    font-family: 'Cabin Sketch', cursive;
+}
+
 .wrap {
     min-height: calc(100vh - 100px);
   }
