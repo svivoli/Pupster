@@ -5,3 +5,7 @@
 nav.navbar.navbar-default {
     margin-bottom: 0;
   }
+
+.navbar-item, .nav-item {
+  padding-top: 5px;
+}
