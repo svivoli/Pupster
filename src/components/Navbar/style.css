@@ -1,3 +1,7 @@
+.navbar {
+  background: linear-gradient(#f5a851 ,#cc54fc, #25d2d8);
+}
+
 .navbar-brand {
   font-family: 'Cabin Sketch', cursive;
 }
